@@ -1,5 +1,5 @@
-import styles from './message_css.css';
+import './message_css.css';
 
 export const Message = (props) => {
-    return <div className={styles.message}>{props.text}</div>
+    return <div className="message">{props.text}</div>
 };
